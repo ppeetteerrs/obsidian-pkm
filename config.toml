@@ -13,6 +13,9 @@ minify_html = true
 render_emoji = false
 taxonomies = []
 
+[slugify]
+paths = "off"
+
 [search]
 include_content = true
 include_description = true
