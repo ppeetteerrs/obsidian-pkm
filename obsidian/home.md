@@ -1,4 +1,4 @@
 ## University
 ### Year 4
 #### FYP
-[[StyleGAN]]
+[StyleGAN](uncategorized/StyleGAN.md)
