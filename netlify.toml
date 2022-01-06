@@ -1,5 +1,5 @@
 [build]
-command = "sh ./front.sh && zola build"
+command = "bash ./front.sh && zola build"
 publish = "public"
 
 [build.environment]
