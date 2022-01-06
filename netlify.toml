@@ -1,6 +1,7 @@
 [build]
-command = "bash ./front.sh && zola build"
+command = "python execute.py && zola build"
 publish = "public"
 
 [build.environment]
+PYTHON_VERSION = "3.8"
 ZOLA_VERSION = "0.13.0"

@@ -5,7 +5,4 @@ Equalized Learning Rate is a concept introduced in [[ProGAN]].
 
 Modern optimizers such as the [[uncategorized/Adam]] optimzer limit gradient update step sizes. However, in GANs, different parameters have vastly different dynamic ranges (i.e. the range of values). In order to equalize the learning rate between different parameters, we divide the parameters by its fan-in (i.e. estimated standard deviation) during runtime.
 
-*Reference video*
-<iframe src="https://www.youtube.com/embed/XwUTJhKRVl8?feature=oembed" height="113" width="200" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
-
-/iframe
+[*Reference video*](https://www.youtube.com/watch?v=XwUTJhKRVl8&feature=emb_title)
