@@ -1,0 +1,477 @@
+{
+	"dollar": {
+		"prefix": "\\$",
+		"body": "<span>$</span>",
+		"description": "dollar sign"
+	},
+	"st": {
+		"prefix": "st",
+		"body": "\\text{ such that }$0",
+		"description": "such that"
+	},
+	"borel": {
+		"prefix": "borel",
+		"body": "\\mathcal{B}",
+		"description": "Borel"
+	},
+	"prod": {
+		"prefix": "prod",
+		"body": "\\prod",
+		"description": "Product"
+	},
+	"sum": {
+		"prefix": "sum",
+		"body": "\\sum",
+		"description": "Summation"
+	},
+	"item": {
+		"prefix": "item",
+		"body": "**$1**:$0",
+		"description": "Item"
+	},
+	"set": {
+		"prefix": "set",
+		"body": "\\\\\\{ $0 \\\\\\\\} ",
+		"description": "Set"
+	},
+	"space": {
+		"prefix": "qq",
+		"body": "\\quad",
+		"description": "Spacing"
+	},
+	"limits": {
+		"prefix": "lim",
+		"body": "\\limits_{${1:i=1}}^{${2:\\infty}}$0",
+		"description": "Limits"
+	},
+	"case": {
+		"prefix": "case",
+		"body": "{{<admonition type=\"case\" title=\"$1\">}}\n$0\n{{</admonition >}}",
+		"description": "case block"
+	},
+	"rule": {
+		"prefix": "rule",
+		"body": "{{<admonition type=\"rule\" title=\"$1\">}}\n$0\n{{</admonition>}}",
+		"description": "Rule block"
+	},
+	"insight": {
+		"prefix": "insight",
+		"body": "{{<admonition type=\"insight\" title=\"$1\">}}\n$0\n{{</admonition>}}",
+		"description": "Insight block"
+	},
+	"misc": {
+		"prefix": "misc",
+		"body": "{{<admonition type=\"misc\" title=\"$1\" open=\"false\">}}\n$0\n{{</admonition>}}",
+		"description": "Misc block"
+	},
+	"definition": {
+		"prefix": "definition",
+		"body": "{{<admonition type=\"definition\" title=\"$1\">}}\n$0\n{{</admonition>}}",
+		"description": "Definition block"
+	},
+	"theorem": {
+		"prefix": "theorem",
+		"body": "{{<admonition type=\"theorem\" title=\"$1\">}}\n$0\n{{</admonition>}}",
+		"description": "Theorem block"
+	},
+	"concept": {
+		"prefix": "concept",
+		"body": "{{<admonition type=\"blue\" title=\"Concept: $1\">}}\n$0\n{{</admonition>}}",
+		"description": "Concept block"
+	},
+	"result": {
+		"prefix": "result",
+		"body": "{{<admonition type=\"purple\" title=\"Result: $1\">}}\n$0\n{{</admonition>}}",
+		"description": "Result block"
+	},
+	"intuition": {
+		"prefix": "intuition",
+		"body": "{{<admonition type=\"green\" title=\"Intuition: $1\">}}\n$0\n{{</admonition>}}",
+		"description": "Intuition block"
+	},
+	"note": {
+		"prefix": "note",
+		"body": "{{<admonition type=\"note\" title=\"$1\">}}\n$0\n{{</admonition>}}",
+		"description": "Note block"
+	},
+	"stl": {
+		"prefix": "stl",
+		"body": "{{<stl file=\"$1\" colour=\"${2:0x33d6ff}\">}}\n$0 [download]($1.stl)\n{{</stl>}}",
+		"description": "STL block"
+	},
+	"latex": {
+		"prefix": "la",
+		"body": "$$ $1 $$$0",
+		"description": "Latex block"
+	},
+	"latex_inline": {
+		"prefix": "li",
+		"body": "$ $1 $$0",
+		"description": "Inline Latex block"
+	},
+	"bb": {
+		"prefix": "mbb",
+		"body": "\\mathbb{$1}$0",
+		"description": "mathbb"
+	},
+	"cal": {
+		"prefix": "cal",
+		"body": "\\mathcal{$1}$0",
+		"description": "mathcal"
+	},
+	"alpha": {
+		"prefix": "aa",
+		"body": "\\alpha",
+		"description": "alpha"
+	},
+	"Alpha": {
+		"prefix": "AA",
+		"body": "\\Alpha",
+		"description": "Alpha"
+	},
+	"beta": {
+		"prefix": "bb",
+		"body": "\\beta",
+		"description": "beta"
+	},
+	"Beta": {
+		"prefix": "BB",
+		"body": "\\Beta",
+		"description": "Beta"
+	},
+	"gamma": {
+		"prefix": "gg",
+		"body": "\\gamma",
+		"description": "gamma"
+	},
+	"Gamma": {
+		"prefix": "GG",
+		"body": "\\Gamma",
+		"description": "Gamma"
+	},
+	"delta": {
+		"prefix": "dd",
+		"body": "\\delta",
+		"description": "delta"
+	},
+	"Delta": {
+		"prefix": "DD",
+		"body": "\\Delta",
+		"description": "Delta"
+	},
+	"epsilon": {
+		"prefix": "ee",
+		"body": "\\varepsilon",
+		"description": "epsilon"
+	},
+	"zeta": {
+		"prefix": "zz",
+		"body": "\\zeta",
+		"description": "zeta"
+	},
+	"eta": {
+		"prefix": "hh",
+		"body": "\\eta",
+		"description": "eta"
+	},
+	"theta": {
+		"prefix": "tt",
+		"body": "\\theta",
+		"description": "theta"
+	},
+	"Theta": {
+		"prefix": "tt",
+		"body": "\\Theta",
+		"description": "Theta"
+	},
+	"kappa": {
+		"prefix": "kk",
+		"body": "\\kappa",
+		"description": "kappa"
+	},
+	"lambda": {
+		"prefix": "ll",
+		"body": "\\lambda",
+		"description": "lambda"
+	},
+	"Lambda": {
+		"prefix": "LL",
+		"body": "\\Lambda",
+		"description": "Lambda"
+	},
+	"mu": {
+		"prefix": "mm",
+		"body": "\\mu",
+		"description": "mu"
+	},
+	"nu": {
+		"prefix": "nn",
+		"body": "\\nu",
+		"description": "nu"
+	},
+	"xi": {
+		"prefix": "xi",
+		"body": "\\xi",
+		"description": "xi"
+	},
+	"rho": {
+		"prefix": "rr",
+		"body": "\\rho",
+		"description": "rho"
+	},
+	"pi": {
+		"prefix": "pi",
+		"body": "\\pi",
+		"description": "pi"
+	},
+	"Pi": {
+		"prefix": "Pi",
+		"body": "\\Pi",
+		"description": "Pi"
+	},
+	"sigma": {
+		"prefix": "ss",
+		"body": "\\sigma",
+		"description": "sigma"
+	},
+	"Sigma": {
+		"prefix": "SS",
+		"body": "\\Sigma",
+		"description": "Sigma"
+	},
+	"tau": {
+		"prefix": "tt",
+		"body": "\\tau",
+		"description": "tau"
+	},
+	"upsilon": {
+		"prefix": "uu",
+		"body": "\\upsilon",
+		"description": "upsilon"
+	},
+	"phi": {
+		"prefix": "pp",
+		"body": "\\phi",
+		"description": "phi"
+	},
+	"Phi": {
+		"prefix": "PP",
+		"body": "\\Phi",
+		"description": "Phi"
+	},
+	"chi": {
+		"prefix": "xx",
+		"body": "\\chi",
+		"description": "chi"
+	},
+	"psi": {
+		"prefix": "yy",
+		"body": "\\psi",
+		"description": "psi"
+	},
+	"Psi": {
+		"prefix": "YY",
+		"body": "\\Psi",
+		"description": "Psi"
+	},
+	"omega": {
+		"prefix": "ww",
+		"body": "\\omega",
+		"description": "omega"
+	},
+	"Omega": {
+		"prefix": "WW",
+		"body": "\\Omega",
+		"description": "Omega"
+	},
+	"to": {
+		"prefix": "to",
+		"body": "\\rightarrow",
+		"description": "rightarrow"
+	},
+	"Rightarrow": {
+		"prefix": "then",
+		"body": "\\Rightarrow",
+		"description": "Rightarrow"
+	},
+	"Leftrightarrow": {
+		"prefix": "iff",
+		"body": "\\Leftrightarrow",
+		"description": "Leftrightarrow"
+	},
+	"mapsto": {
+		"prefix": "map",
+		"body": "\\mapsto",
+		"description": "mapsto"
+	},
+	"infty": {
+		"prefix": "inf",
+		"body": "\\infty",
+		"description": "infty"
+	},
+	"forall": {
+		"prefix": "fa",
+		"body": "\\\\\\; \\forall \\\\\\; ",
+		"description": "forall"
+	},
+	"exists": {
+		"prefix": "ex",
+		"body": "\\\\\\;  \\exists \\\\\\; ",
+		"description": "exists"
+	},
+	"emptyset": {
+		"prefix": "emp",
+		"body": "\\emptyset",
+		"description": "emptyset"
+	},
+	"times": {
+		"prefix": "**",
+		"body": "\\times",
+		"description": "times"
+	},
+	"div": {
+		"prefix": "//",
+		"body": "\\div",
+		"description": "div"
+	},
+	"real": {
+		"prefix": "real",
+		"body": "\\mathbb{R}",
+		"description": "real"
+	},
+	"equiv": {
+		"prefix": "==",
+		"body": "\\equiv",
+		"description": "equiv symbol"
+	},
+	"subscript": {
+		"prefix": "__",
+		"body": "_{$1}$0",
+		"description": "subscript"
+	},
+	"superscript": {
+		"prefix": "^^",
+		"body": "^{$1}$0",
+		"description": "superscript"
+	},
+	"etc": {
+		"prefix": "...",
+		"body": "\\dots",
+		"description": "\\dots"
+	},
+	"cdot": {
+		"prefix": "..",
+		"body": "\\cdot",
+		"description": "\\cdot"
+	},
+	"partial": {
+		"prefix": "6",
+		"body": "\\partial",
+		"description": "partial derivative symbol"
+	},
+	"fraction": {
+		"prefix": "///",
+		"body": "\\frac{$1}{$2}$0",
+		"description": "fraction"
+	},
+	"hat": {
+		"prefix": "hat",
+		"body": "\\Hat{${1:${TM_SELECTED_TEXT}}}$0",
+		"description": "hat"
+	},
+	"bar": {
+		"prefix": "bar",
+		"body": "\\bar{${1:${TM_SELECTED_TEXT}}}$0",
+		"description": "bar"
+	},
+	"leq": {
+		"prefix": "le",
+		"body": "\\leq",
+		"description": "leq symbol"
+	},
+	"geq": {
+		"prefix": "ge",
+		"body": "\\geq",
+		"description": "geq symbol"
+	},
+	"neq": {
+		"prefix": "!=",
+		"body": "\\neq",
+		"description": "neq"
+	},
+	"sqrt": {
+		"prefix": "root",
+		"body": "\\sqrt{${1:${TM_SELECTED_TEXT}}}$0",
+		"description": "sqrt command"
+	},
+	"in": {
+		"prefix": "in",
+		"body": "\\in",
+		"description": "in"
+	},
+	"notin": {
+		"prefix": "nin",
+		"body": "\\notin",
+		"description": "notin"
+	},
+	"perp": {
+		"prefix": "perp",
+		"body": "\\perp",
+		"description": "perp"
+	},
+	"subset": {
+		"prefix": "sub",
+		"body": "\\subset",
+		"description": "subset"
+	},
+	"bigcup": {
+		"prefix": "Union",
+		"body": "\\bigcup",
+		"description": "bigcup"
+	},
+	"bigcap": {
+		"prefix": "Intersect",
+		"body": "\\bigcap",
+		"description": "bigcap"
+	},
+	"setminus": {
+		"prefix": "diff",
+		"body": "\\setminus",
+		"description": "setminus"
+	},
+	"cup": {
+		"prefix": "union",
+		"body": "\\cup",
+		"description": "cup"
+	},
+	"cap": {
+		"prefix": "intersect",
+		"body": "\\cap",
+		"description": "cap"
+	},
+	"equation": {
+		"prefix": "eq",
+		"body": "\\begin{equation}\n\t${0}\n\\end{equation}",
+		"description": "equation environment"
+	},
+	"equation*": {
+		"prefix": "eqn",
+		"body": "\\begin{equation*}\n\t${0}\n\\end{equation*}",
+		"description": "equation* environment"
+	},
+	"align": {
+		"prefix": "al",
+		"body": "\\begin{align}\n\t${0}\n\\end{align}",
+		"description": "align environment"
+	},
+	"align*": {
+		"prefix": "aln",
+		"body": "\\begin{align*}\n\t${0}\n\\end{align*}",
+		"description": "align* environment"
+	},
+	"begin": {
+		"prefix": "beg",
+		"body": "\\begin{$1}\n\t${0}\n\\end{$1}",
+		"description": "begin environment"
+	}
+}

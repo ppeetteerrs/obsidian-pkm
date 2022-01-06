@@ -3,10 +3,16 @@
 {% extends "base.html" %}
 
 {% block seo %}
-  {% set_global current_section = '' %}
   {{ super() }}
   {% set title_addition = "" %}
-  {% set title = page.slug %}
+  {% if page.title and config.title %}
+    {% set title = page.title %}
+    {% set title_addition = title_separator ~ config.title %}
+  {% elif page.title %}
+    {% set title = page.title %}
+  {% else %}
+    {% set title = config.title %}
+  {% endif %}
   
   {% if page.description %}
     {% set description = page.description %}
@@ -25,24 +31,26 @@
 {% endblock seo %}
   
 {% block body %}
-  {% set page_class = "docs single" %}
+  {% if section.extra.class %}
+    {% set page_class = page.extra.class %}
+  {% else %}
+    {% set page_class = "page single" %}
+  {% endif %}
 {% endblock body %}
-
-{% block header %}
-  {{ macros_header::header(current_section=current_section)}}
-{% endblock header %}
 
 {% block content %}
 <div class="wrap container" role="document">
   <div class="content">
-    <div class="row flex-xl-nowrap">
-      {{ macros_sidebar::docs_sidebar(current_section=current_section) }}
-	  {{ macros_toc::docs_toc(page=page) }}
-      <main class="docs-content col-lg-11 col-xl-9">
-        <h1>{{ title }}</h1>
-        {% if page.extra.lead %}<p class="lead">{{ page.extra.lead | safe }}</p>{% endif %}
-        {{ page.content | safe }}
-      </main>
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-10 col-xl-8">
+        <article>
+          <div class="page-header">
+            <h1>{{ page.title }}</h1>
+          </div>
+          {% if page.extra.lead %}<p class="lead">{{ page.extra.lead }}</p>{% endif %}
+          {{ page.content | safe }}
+        </article>
+      </div>
     </div>
   </div>
 </div>

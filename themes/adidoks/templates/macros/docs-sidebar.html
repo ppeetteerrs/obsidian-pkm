@@ -7,7 +7,7 @@
 					<h3>{{ index.title }}</h3>
 					<ul class="list-unstyled">
 					{% for page in index.pages %}                           
-							<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.slug }}</a></li>
+							<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
 					{% endfor %}
 					</ul>
 			{% endif %}
@@ -18,7 +18,7 @@
 							<h3>{{ subsection.title }}</h3>
 							<ul class="list-unstyled">
 							{% for page in subsection.pages %}                           
-									<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.slug }}</a></li>
+									<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
 							{% endfor %}
 					</ul>
 					{% endif %}

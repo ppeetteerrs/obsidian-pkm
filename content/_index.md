@@ -1,7 +1,8 @@
 ---
-title: "Blog"
-description: "Blog"
-sort_by: "none"
-paginate_by: 10
-template: "section.html"
+title: "My Second Brain"
+
+extra:
+  lead: "This is my personal knowledge management system. Concepts and snippets of knowledge are organized in an (unstructure) inter-linked knowledge graph."
+  url: "/docs/home"
+  url_button: "Enter"
 ---

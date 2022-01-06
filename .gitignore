@@ -1,2 +1,5 @@
 public
 bk
+content/docs/**/*
+!content/docs/.gitkeep
+obsidian/.obsidian
