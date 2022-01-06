@@ -1,9 +1,6 @@
 [build]
-command = "zola build"
+command = "./front.sh && zola build"
 publish = "public"
 
 [build.environment]
 ZOLA_VERSION = "0.13.0"
-
-[context.deploy-preview]
-command = "./front.sh && zola build --base-url $DEPLOY_PRIME_URL"
