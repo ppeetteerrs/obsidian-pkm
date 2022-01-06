@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 for filename in $(pwd)/content/*.md; do
     start=$(cat "$filename" | head -c 3);
