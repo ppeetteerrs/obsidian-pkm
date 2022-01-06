@@ -1,0 +1,49 @@
+{# Default page.html template #}
+
+{% extends "base.html" %}
+
+{% block seo %}
+  {% set_global current_section = '' %}
+  {{ super() }}
+  {% set title_addition = "" %}
+  {% set title = page.slug %}
+  
+  {% if page.description %}
+    {% set description = page.description %}
+  {% else %}
+    {% set description = config.description %}
+  {% endif %}
+  {% set created_time = page.date %}
+  {% set updated_time = page.updated %}
+  {% if current_section %}
+    {% set page_section = current_section %}
+  {% else %}
+    {% set page_section = "" %}
+  {% endif %}
+  
+  {{ macros_head::seo(title=title, title_addition=title_addition, description=description, type="article", is_page=true, created_time=created_time, updated_time=updated_time, page_section=page_section) }}
+{% endblock seo %}
+  
+{% block body %}
+  {% set page_class = "docs single" %}
+{% endblock body %}
+
+{% block header %}
+  {{ macros_header::header(current_section=current_section)}}
+{% endblock header %}
+
+{% block content %}
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+      {{ macros_sidebar::docs_sidebar(current_section=current_section) }}
+	  {{ macros_toc::docs_toc(page=page) }}
+      <main class="docs-content col-lg-11 col-xl-9">
+        <h1>{{ title }}</h1>
+        {% if page.extra.lead %}<p class="lead">{{ page.extra.lead | safe }}</p>{% endif %}
+        {{ page.content | safe }}
+      </main>
+    </div>
+  </div>
+</div>
+{% endblock content %}

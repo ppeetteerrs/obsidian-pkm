@@ -1,0 +1,68 @@
+{# Default section.html template #}
+
+{% extends "base.html" %}
+
+{% block seo %}
+  {{ super() }}
+  {% set title_addition = "" %}
+  
+  {% if section.title and config.title %}
+    {% set title = section.title %}
+    {% set title_addition = title_separator ~ config.title %}
+  {% elif section.title %}
+    {% set title = section.title %}
+  {% else %}
+    {% set title = config.title %}
+  {% endif %}
+  
+  {% if section.description %}
+    {% set description = section.description %}
+  {% else %}
+    {% set description = config.description %}
+  {% endif %}
+  
+  {{ macros_head::seo(title=title, title_addition=title_addition, description=description) }}
+{% endblock seo %}
+
+{% block body %}
+  {% if section.extra.class %}
+    {% set page_class = section.extra.class %}
+  {% else %}
+    {% set page_class = "blog list" %}
+  {% endif %}
+{% endblock body %}
+
+{% block header %}
+  {# This value is matched by the config.extra.menu.main->section #}
+  {% set current_section = "blog" %}
+  {{ macros_header::header(current_section=current_section)}}
+{% endblock header %}
+
+{% block content %}
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-10 col-xl-8">
+        <article>
+          <h1 class="text-center">{{ section.title }}</h1>
+          <div class="card-list">
+            {% for page in paginator.pages %}
+            <div class="card">
+              <div class="card-body">
+                <h2 class="h3"><a class="stretched-link text-body" href="{{ page.permalink }}">{{ page.slug }}</a></h2>
+                {% if page.extra.lead %}
+                  <p class="lead">{{ page.extra.lead | safe }}</p>{% elif page.description %}<p class="lead">{{ page.description | safe }}</p>{% endif %}
+                {{ macros_publish::page_publish_metadata(page=page) }}
+              </div>
+            </div>
+            {% endfor %}
+            {% if paginator.previous or paginator.next %}
+              {{ macros_section_nav::navigation(paginator=paginator) }}
+            {% endif %}
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
