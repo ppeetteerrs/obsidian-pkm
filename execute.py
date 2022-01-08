@@ -10,6 +10,9 @@ DOCS_DIR = Path("content/docs")
 
 
 def rm_front(content: List[str]) -> List[str]:
+    """
+    Remove obsidian-specific front matters
+    """
     if len(content) == 0 or not content[0].startswith("---"):
         return content
 
@@ -26,6 +29,10 @@ def rm_front(content: List[str]) -> List[str]:
 
 
 def filter_lines(file: Path, content: List[str]) -> List[str]:
+    """
+    1. Replace obsidian relative links to valid absolute links
+    2. Double escape latex newline
+    """
     parent_dir = f"{file.parents[0]}".replace("content/", "/")
     replaced_links = [
         re.sub(
@@ -33,7 +40,7 @@ def filter_lines(file: Path, content: List[str]) -> List[str]:
         )
         for line in content
     ]
-    replaced_slashes = [line.replace("\\\\", "\\\\\\\\") for line in replaced_links]
+    replaced_slashes = [re.sub(r"\\\\$", r"\\\\\\\\", line) for line in replaced_links]
     return replaced_slashes
 
 
@@ -62,7 +69,7 @@ shutil.copytree(
 
 md_files = list(DOCS_DIR.glob("**/*.md"))
 for md_file in md_files:
-    content = open(md_file, "r").readlines()
+    content = [line.rstrip() for line in open(md_file, "r").readlines()]
     if str(md_file).endswith("_index.md"):
         continue
 

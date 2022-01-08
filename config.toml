@@ -3,7 +3,7 @@ base_url = "https://peteryuen.netlify.app/"
 description = "AdiDoks is a Zola theme helping you build modern documentation websites, which is a port of the Hugo theme Doks for Zola."
 title = "Peter Yuen"
 
-theme = "adidoks"
+theme = "zola-pkm"
 
 build_search_index = true
 compile_sass = true
