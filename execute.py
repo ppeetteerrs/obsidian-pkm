@@ -38,7 +38,9 @@ def filter_lines(file: Path, content: List[str]) -> List[str]:
 
 
 def write_front(file: Path, content: List[str]) -> List[str]:
-    title = file.stem.title()
+    title = " ".join(
+        [item if item.isupper() else item.title() for item in file.stem.split(" ")]
+    )
     modified = datetime.fromtimestamp(os.path.getmtime(file))
     return [
         "---",
