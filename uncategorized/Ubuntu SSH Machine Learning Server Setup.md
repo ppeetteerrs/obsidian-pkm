@@ -15,26 +15,26 @@
 
 ### Install Essentials
 ```bash
-sudo apt-get -y update && sudo apt-get -y upgrade && \
+sudo apt-get -y update && sudo apt-get -y upgrade
 sudo apt-get install -y build-essential
 ```
 
 ### Install NVIDIA Driver
 ```bash
-sudo apt-get install -y nvidia-driver-495 && \
+sudo apt-get install -y nvidia-driver-495
 sudo reboot
 ```
 
 ### Install Docker
 Add Docker repo:
 ```bash
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg && \
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 echo \ "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \ $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
 Install Docker:
 ```bash
-sudo apt-get update && \
+sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.i
 ```
 
@@ -99,7 +99,7 @@ sudo mount -a
 
 ### Prevent sleep
 ```bash
-sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target && \
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 sudo reboot
 ```
 
@@ -188,7 +188,7 @@ format = "$all_status$ahead_behind"
 ### Install Mambaforge
 Installation:
 ```bash
-wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh && \
+wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh
 bash Mambaforge-$(uname)-$(uname -m).sh
 ```
 
