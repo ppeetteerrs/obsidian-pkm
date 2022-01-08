@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "b8dadc61d90d9e1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f21ad7fce6b3c54f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "uncategorized/Ubuntu SSH Machine Learning Server Setup.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a2a085b65967483e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f086a05b4020631",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37c5df0d3879a61c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "01fe0938800cf001",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#define",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "32827db1440bbd7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "50b560cae867be97",
+        "type": "tabs",
+        "dimension": 32.870370370370374,
+        "children": [
+          {
+            "id": "21271f8feb296cb0",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "uncategorized/Ubuntu SSH Machine Learning Server Setup.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "5a4c81463f0d78cc",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "cc95e86421bdec9a",
+        "type": "tabs",
+        "dimension": 18.51851851851852,
+        "children": [
+          {
+            "id": "5da85df366a65a8b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "uncategorized/Ubuntu SSH Machine Learning Server Setup.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e63498f8bbdabf1b",
+        "type": "tabs",
+        "dimension": 20,
+        "children": [
+          {
+            "id": "c96f8b4624fcbb0b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "uncategorized/Ubuntu SSH Machine Learning Server Setup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ac42eb863b88e618",
+        "type": "tabs",
+        "dimension": 28.611111111111107,
+        "children": [
+          {
+            "id": "84da0c5f146eb234",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "uncategorized/Ubuntu SSH Machine Learning Server Setup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 274,
+    "collapsed": true
+  },
+  "active": "f21ad7fce6b3c54f",
+  "lastOpenFiles": [
+    "uncategorized/Ubuntu SSH Machine Learning Server Setup.md",
+    "uncategorized/ProGAN.md",
+    "uncategorized/Adam.md",
+    "uncategorized/Cauchy–Schwarz Inequality.md",
+    "uncategorized/Equalized Learning Rate.md",
+    "uncategorized/StyleGAN.md",
+    "home.md",
+    "vault/ok.png",
+    "website/home.md",
+    "website/assets/favicon-32.png"
+  ]
+}
