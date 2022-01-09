@@ -38,6 +38,26 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.i
 ```
 
+### Install NVIDIA Container Toolkit
+Setup `stable` repository and GPG key:
+```bash
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
+   && curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add - \
+   && curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+```
+
+Install `nvidia-docker2`:
+```bash
+sudo apt-get update
+sudo apt-get install -y nvidia-docker2
+```
+
+Restart Docker and test:
+```bash
+sudo systemctl restart docker
+sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi
+```
+
 ### Formatting Data Drive(s)
 > For example, if your SSD is /dev/nvme0n1. [ref](https://linuxconfig.org/partitioning-and-formatting-of-samsung-ssd-850-pro-with-linux)
 

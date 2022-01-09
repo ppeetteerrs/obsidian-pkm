@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "home.md",
+            "file": "Running Custom Command Using Windows Shortcuts.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -72,7 +72,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "home.md",
+                "file": "Running Custom Command Using Windows Shortcuts.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "home.md"
+                "file": "Running Custom Command Using Windows Shortcuts.md"
               }
             }
           }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "home.md",
+                "file": "Running Custom Command Using Windows Shortcuts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "home.md",
+                "file": "Running Custom Command Using Windows Shortcuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,15 +179,15 @@
   },
   "active": "f21ad7fce6b3c54f",
   "lastOpenFiles": [
-    "home.md",
-    "uncategorized/StyleGAN.md",
-    "uncategorized/Equalized Learning Rate.md",
-    "uncategorized/Cauchy–Schwarz Inequality.md",
-    "uncategorized/Adam.md",
-    "uncategorized/ProGAN.md",
+    "Running Custom Command Using Windows Shortcuts.md",
+    "Saving PulseSecure Password in Microsoft Windows.md",
+    "Microsoft Windows Productivity Hacks and Tricks.md",
+    "Python.md",
     "uncategorized/Ubuntu SSH Machine Learning Server Setup.md",
-    "vault/ok.png",
-    "website/home.md",
-    "website/assets/favicon-32.png"
+    "Weight Initialization.md",
+    "uncategorized/StyleGAN.md",
+    "home.md",
+    "uncategorized/Equalized Learning Rate.md",
+    "uncategorized/Cauchy–Schwarz Inequality.md"
   ]
 }

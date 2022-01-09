@@ -1,6 +1,6 @@
 {
   "frameless": true,
-  "hideRibbon": true,
+  "hideRibbon": false,
   "hideStatus": true,
   "hideScroll": true,
   "hideTooltips": false,
