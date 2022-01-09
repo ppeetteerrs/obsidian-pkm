@@ -4,5 +4,6 @@
 1. Open the `Properties` pane
 2. Set `Target` to `%comspec% /c <command>` (`/c` = close command prompt, `/k` = keep command prompt. If you set `c/`, remember to set `Run`  to Minimized to avoid a flashing command prompt.)
 3. Set `Start in` to your desired working directory (equivalent to running the command in that directory)
-4. Set a fancy icon, see mine :) ![icon](attachments/obsidian_vscode_shortcut_icon.ico)
+4. Set a fancy icon, see mine :) 
+![icon](attachments/obsidian_vscode_shortcut_icon.ico)
 5. Pin it to the Task bar!

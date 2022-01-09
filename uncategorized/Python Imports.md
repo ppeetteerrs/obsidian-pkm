@@ -1,4 +1,4 @@
-## TLDR
+## Preface
 Python imports has always been a confusing topic for me. The dreaded `ImportError: attempted relative import with no known parent package` has haunted me for years. And now, I have decided to figure things out once and for all. (No more fear of running a Python script not in the project root directory yay!)
 
 ## Do we still need `__init__.py`?

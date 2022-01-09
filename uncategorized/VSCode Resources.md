@@ -1,0 +1,1 @@
+- C++ Formatter Settings: [Clang format style options](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)(for `.clang-format` or VSCode settings)
