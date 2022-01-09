@@ -9,5 +9,6 @@
   "newFileLocation": "folder",
   "newLinkFormat": "relative",
   "attachmentFolderPath": "attachments",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "newFileFolderPath": "uncategorized"
 }
