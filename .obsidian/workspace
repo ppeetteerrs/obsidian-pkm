@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "uncategorized/SSH into a WSL2 Host Remotely.md",
+            "file": "uncategorized/Google Chrome and Google Search Hacks.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -72,7 +72,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "uncategorized/SSH into a WSL2 Host Remotely.md",
+                "file": "uncategorized/Google Chrome and Google Search Hacks.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "uncategorized/SSH into a WSL2 Host Remotely.md"
+                "file": "uncategorized/Google Chrome and Google Search Hacks.md"
               }
             }
           }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "uncategorized/SSH into a WSL2 Host Remotely.md",
+                "file": "uncategorized/Google Chrome and Google Search Hacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "uncategorized/SSH into a WSL2 Host Remotely.md",
+                "file": "uncategorized/Google Chrome and Google Search Hacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,15 +179,15 @@
   },
   "active": "f21ad7fce6b3c54f",
   "lastOpenFiles": [
+    "uncategorized/Google Chrome and Google Search Hacks.md",
+    "uncategorized/VSCode Resources.md",
+    "uncategorized/Personal Notes on Consumer Electronics.md",
     "uncategorized/SSH into a WSL2 Host Remotely.md",
     "uncategorized/Make Conda Great (Less Suckish) Again.md",
     "uncategorized/Python.md",
     "uncategorized/WSL2 NVIDIA Docker Error.md",
     "uncategorized/Microsoft Windows Productivity Hacks and Tricks.md",
     "uncategorized/Python Imports.md",
-    "uncategorized/VSCode Resources.md",
-    "uncategorized/Running Custom Command Using Windows Shortcuts.md",
-    "uncategorized/Saving PulseSecure Password in Microsoft Windows.md",
-    "uncategorized/Ubuntu SSH Machine Learning Server Setup.md"
+    "uncategorized/Running Custom Command Using Windows Shortcuts.md"
   ]
 }
