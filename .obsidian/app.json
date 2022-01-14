@@ -4,7 +4,7 @@
   "livePreview": true,
   "foldHeading": true,
   "foldIndent": true,
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newLinkFormat": "relative",

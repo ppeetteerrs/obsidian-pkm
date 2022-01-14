@@ -44,7 +44,7 @@ I can't even count how many times I used to do `python sub_dir/script.py` and ge
 ### What does the `-m` do?
 When you run `python sub_dir/script.py`, the file is run as a **script**, meaning that the file's parent directory is added to `sys.path` at index `0`. As such, relative imports inside `sub_dir/script.py` like `from ..xxx import yyy` do not work as the parent directory of `sub_dir` is not inside `sys.path` (imagine the rabit hole that is opened if Python searches through every parent directory of `script.py` for packages hmmm).
 
-> If this option is given, the first element of [`sys.argv`](https://docs.python.org/2/library/sys.html#sys.argv "sys.argv") will be the full path to the module file. As with the [`-c`](https://docs.python.org/2/using/cmdline.html#cmdoption-c) option, the current directory will be added to the start of [`sys.path`](https://docs.python.org/2/library/sys.html#sys.path "sys.path"). ([reference](https://docs.python.org/2/using/cmdline.html#cmdoption-m))
+> If this option is given, the first element of [](https://docs.python.org/2/library/sys.html#sys.argv%20%22sys.argv%22) will be the full path to the module file. As with the [](https://docs.python.org/2/using/cmdline.html#cmdoption-c) option, the current directory will be added to the start of [](https://docs.python.org/2/library/sys.html#sys.path%20%22sys.path%22). ([](https://docs.python.org/2/using/cmdline.html#cmdoption-m))
 
 If we run `python -m sub_dir/script`, the `sys.path` behaviour is described above. The Python interpreter will then "search `sys.path` for the named module and execute its contents as the `__main__` module". Thus, the relative imports work as expected.
 

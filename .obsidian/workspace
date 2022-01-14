@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f21ad7fce6b3c54f",
+        "id": "901596674108191d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "uncategorized/Google Chrome and Google Search Hacks.md",
+            "file": "home.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -54,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "32827db1440bbd7e",
@@ -72,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "uncategorized/Google Chrome and Google Search Hacks.md",
+                "file": "home.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "uncategorized/Google Chrome and Google Search Hacks.md"
+                "file": "home.md"
               }
             }
           }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "uncategorized/Google Chrome and Google Search Hacks.md",
+                "file": "home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "uncategorized/Google Chrome and Google Search Hacks.md",
+                "file": "home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,17 +176,17 @@
     "width": 274,
     "collapsed": true
   },
-  "active": "f21ad7fce6b3c54f",
+  "active": "901596674108191d",
   "lastOpenFiles": [
-    "uncategorized/Google Chrome and Google Search Hacks.md",
-    "uncategorized/VSCode Resources.md",
-    "uncategorized/Personal Notes on Consumer Electronics.md",
-    "uncategorized/SSH into a WSL2 Host Remotely.md",
+    "home.md",
+    "uncategorized/ProGAN.md",
+    "uncategorized/Equalized Learning Rate.md",
+    "uncategorized/Cauchy–Schwarz Inequality.md",
+    "obsidian-zola/Obsidian Zola Links Test.md",
     "uncategorized/Make Conda Great (Less Suckish) Again.md",
-    "uncategorized/Python.md",
-    "uncategorized/WSL2 NVIDIA Docker Error.md",
-    "uncategorized/Microsoft Windows Productivity Hacks and Tricks.md",
-    "uncategorized/Python Imports.md",
-    "uncategorized/Running Custom Command Using Windows Shortcuts.md"
+    "uncategorized/Adam.md",
+    "attachments/groot.jpg",
+    "obsidian-zola/attachments/groot.jpg",
+    "obsidian-zola/Untitled.md"
   ]
 }
