@@ -15,7 +15,7 @@ It can span
 multiple lines
 %%
 
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+Here's a simple footnote,[^1] and here's a longer one. ^[notice that the carat goes outside of the brackets on this one.]
 
 [^1]: meaningful!
 
