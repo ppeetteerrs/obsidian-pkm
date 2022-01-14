@@ -9,4 +9,3 @@
 
 [Progressive GAN](attachments/Progressive%20GAN.pdf)
 
-![Progressive GAN](attachments/Progressive%20GAN.pdf)
