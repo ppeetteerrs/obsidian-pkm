@@ -38,7 +38,7 @@ Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
 
 If you put links in tables, they will work, but if you use Piped Links, the pipe must be escaped with a `\` to prevent it being read as a table element.
 
-- [x] #tags, [links](), **formatting** supported
+- [x] #tags, **formatting** supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [?] this is also a complete item (works with every character)
