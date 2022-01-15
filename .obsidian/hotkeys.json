@@ -23,5 +23,14 @@
       ],
       "key": "R"
     }
+  ],
+  "table-editor-obsidian:format-all-tables": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "F"
+    }
   ]
 }

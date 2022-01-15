@@ -4,11 +4,11 @@
   "livePreview": true,
   "foldHeading": true,
   "foldIndent": true,
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newLinkFormat": "relative",
   "attachmentFolderPath": "attachments",
   "showUnsupportedFiles": true,
-  "newFileFolderPath": "uncategorized"
+  "newFileFolderPath": "misc"
 }

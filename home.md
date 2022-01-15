@@ -1,9 +1,11 @@
 ## University
 ### Year 4
 #### FYP
-[StyleGAN](uncategorized/StyleGAN)
+[FYP Plan](university/FYP%20Plan)
 
-[WSL2 NVIDIA Docker Error](uncategorized/WSL2%20NVIDIA%20Docker%20Error)
+[StyleGAN](deep%20learning/StyleGAN.md)
+
+[WSL2 NVIDIA Docker Error](tech/WSL2%20NVIDIA%20Docker%20Error.md)
 
 [Progressive GAN](attachments/Progressive%20GAN.pdf)
 

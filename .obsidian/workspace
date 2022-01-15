@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "901596674108191d",
+        "id": "adef34cab80ba43f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "home.md",
+            "file": "programming/RegEx Cheatsheet.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "home.md",
+                "file": "programming/RegEx Cheatsheet.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "home.md"
+                "file": "programming/RegEx Cheatsheet.md"
               }
             }
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "home.md",
+                "file": "programming/RegEx Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "home.md",
+                "file": "programming/RegEx Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,17 +176,17 @@
     "width": 274,
     "collapsed": true
   },
-  "active": "901596674108191d",
+  "active": "adef34cab80ba43f",
   "lastOpenFiles": [
+    "programming/RegEx Cheatsheet.md",
+    "programming/Python RegEx.md",
+    "programming/Python.md",
+    "programming/Python Strings.md",
+    "university/FYP Plan.md",
+    "programming/Python Imports.md",
+    "misc/Cauchy–Schwarz Inequality.md",
+    "tech/Google Chrome and Google Search Hacks.md",
     "home.md",
-    "uncategorized/VSCode Resources.md",
-    "uncategorized/ProGAN.md",
-    "uncategorized/Equalized Learning Rate.md",
-    "uncategorized/Cauchy–Schwarz Inequality.md",
-    "obsidian-zola/Obsidian Zola Links Test.md",
-    "uncategorized/Make Conda Great (Less Suckish) Again.md",
-    "uncategorized/Adam.md",
-    "attachments/groot.jpg",
-    "obsidian-zola/attachments/groot.jpg"
+    "tech/VSCode Resources.md"
   ]
 }
