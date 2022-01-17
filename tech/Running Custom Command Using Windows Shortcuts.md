@@ -7,3 +7,6 @@
 4. Set a fancy icon, see mine :) 
 ![icon](../attachments/obsidian_vscode_shortcut_icon.ico)
 5. Pin it to the Task bar!
+
+**Note**
+If you want to open a certain folder in VSCode, use `%comspec% /c code <full_path>` instead of `%comspec% /c code .` even if you have set your `Start in` to `<full_path>`. This is because multiple shortcuts with the same `Target` cannot be pinned to the taskbar together. To avoid future clashes, we should specify the full path in `Target`.

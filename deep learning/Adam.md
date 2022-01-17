@@ -39,7 +39,7 @@ w_t = w_{t-1} - \eta \frac{\hat{m_t}}{\sqrt{\hat{v_t}} + \epsilon}
 $$
 
 ## Consequences
-1. Learning rate is limited to between 0 and $\eta$ (by [Cauchy–Schwarz Inequality](Cauchy–Schwarz%20Inequality.md))
+1. Learning rate is limited to between 0 and $\eta$ (by [Cauchy–Schwarz Inequality](Cauchy%E2%80%93Schwarz%20Inequality.md))
 2. Smaller variance (e.g. all values near mean) means higher update step
 
 ## Design Choices

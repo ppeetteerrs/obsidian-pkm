@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "programming/RegEx Cheatsheet.md",
+            "file": "tech/Ubuntu SSH Machine Learning Server Setup.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 320
   },
   "right": {
     "id": "32827db1440bbd7e",
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "programming/RegEx Cheatsheet.md",
+                "file": "tech/Ubuntu SSH Machine Learning Server Setup.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/RegEx Cheatsheet.md"
+                "file": "tech/Ubuntu SSH Machine Learning Server Setup.md"
               }
             }
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/RegEx Cheatsheet.md",
+                "file": "tech/Ubuntu SSH Machine Learning Server Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/RegEx Cheatsheet.md",
+                "file": "tech/Ubuntu SSH Machine Learning Server Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,6 +178,8 @@
   },
   "active": "adef34cab80ba43f",
   "lastOpenFiles": [
+    "tech/Ubuntu SSH Machine Learning Server Setup.md",
+    "tech/Running Custom Command Using Windows Shortcuts.md",
     "programming/RegEx Cheatsheet.md",
     "programming/Python RegEx.md",
     "programming/Python.md",
@@ -185,8 +187,6 @@
     "university/FYP Plan.md",
     "programming/Python Imports.md",
     "misc/Cauchy–Schwarz Inequality.md",
-    "tech/Google Chrome and Google Search Hacks.md",
-    "home.md",
-    "tech/VSCode Resources.md"
+    "tech/Google Chrome and Google Search Hacks.md"
   ]
 }

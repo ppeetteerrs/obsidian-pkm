@@ -1,4 +1,4 @@
-[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet#quantifiers)
+[](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet#quantifiers)
 
 ## Overview
 RegEx patterns are made up of characters, groups and ranges:
