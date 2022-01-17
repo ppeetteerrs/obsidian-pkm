@@ -44,5 +44,6 @@ $$
 
 ## Design Choices
 *Why is the uncentered variance used?*
+
 - We do not have access to the mean global gradient (across all batches / timesteps) but we can safely assume it to be zero.
 - The variance has the same expectation as the uncentered variance of the global variance (or centered assuming 0 mean gradient)
