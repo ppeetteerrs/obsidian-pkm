@@ -1,5 +1,5 @@
 [build]
-command = "rm -rf $ZOLA_DIR && git clone -b test https://github.com/ppeetteerrs/obsidian-zola.git $ZOLA_DIR && $ZOLA_DIR/run.sh"
+command = "mkdir __zola && mv * __zola && ls -la"
 publish = "public"
 
 [build.environment]
