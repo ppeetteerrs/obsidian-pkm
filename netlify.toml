@@ -1,5 +1,5 @@
 [build]
-command = "mkdir __zola && mv * __zola && ls -la"
+command = "mkdir __zola && mv * __zola 2> /dev/null && ls -la"
 publish = "public"
 
 [build.environment]
