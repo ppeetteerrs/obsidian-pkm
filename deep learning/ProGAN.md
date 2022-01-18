@@ -1,1 +1,1 @@
-Paper: [Progressive GAN](../attachments/Progressive%20GAN.pdf)
+Paper: ![[Progressive GAN.pdf]]

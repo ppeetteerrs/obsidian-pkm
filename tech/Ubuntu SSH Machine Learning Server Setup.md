@@ -187,7 +187,7 @@ disabled = true
 disabled = true
 
 [conda]
-format = "\\([$environment]($style)\\) "
+format = "\\([[$style|$environment]]\\) "
 ignore_base = false
 
 [git_status]

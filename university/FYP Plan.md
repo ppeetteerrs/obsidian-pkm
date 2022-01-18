@@ -1,6 +1,6 @@
 ## Methodology
 Currently, stage 1 StyleGAN is trained using the CheXpert dataset. This dataset consists of around 200k chest X-rays consisting of 14 different labels:
-![chexpert_labels](../attachments/chexpert_labels.png)
+![[chexpert_labels.png]]
 
 To verify that stage 2 works, we have to ensure that:
 - Stage 1 StyleGAN is **capable** of generating CXR images with the intended pathology

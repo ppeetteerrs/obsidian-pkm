@@ -2,7 +2,7 @@
 aliases: [Adaptive Moment Estimation]
 ---
 # Introduction
-Adam (Adaptive Moment Estimation) is an adaptive learning rate optimization algorithm published in [ICLR 2015](https://arxiv.org/pdf/1412.6980.pdf). It combines the concepts behind [RMSProp](RMSProp) and [SGD with momentum](SGD%20with%20momentum).
+Adam (Adaptive Moment Estimation) is an adaptive learning rate optimization algorithm published in [ICLR 2015](https://arxiv.org/pdf/1412.6980.pdf). It combines the concepts behind [[RMSProp]] and [[SGD with momentum]].
 
 # Maths
 ## Moving averages
@@ -39,7 +39,7 @@ w_t = w_{t-1} - \eta \frac{\hat{m_t}}{\sqrt{\hat{v_t}} + \epsilon}
 $$
 
 ## Consequences
-1. Learning rate is limited to between 0 and $\eta$ (by [Cauchy–Schwarz Inequality](Cauchy%E2%80%93Schwarz%20Inequality.md))
+1. Learning rate is limited to between 0 and $\eta$ (by [[Cauchy–Schwarz Inequality.md|Cauchy–Schwarz Inequality]])
 2. Smaller variance (e.g. all values near mean) means higher update step
 
 ## Design Choices
