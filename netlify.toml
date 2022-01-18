@@ -1,5 +1,10 @@
 [build]
-command = "mkdir __obsidian && mv * __obsidian || true && git clone -b test https://github.com/ppeetteerrs/obsidian-zola.git __site && __site/run.sh"
+command = """rm -rf __obsidian __site && \
+			mkdir __obsidian && \
+			mv * __obsidian || true && \
+			git clone https://github.com/ppeetteerrs/obsidian-zola.git __site && \
+			__site/run.sh
+		"""
 publish = "public"
 
 [build.environment]
@@ -12,5 +17,4 @@ REPO_URL = "https://github.com/ppeetteerrs/obsidian-pkm"
 SITE_TITLE = "Peter's Second Brain"
 SITE_URL = "https://peteryuen.netlify.app/"
 TIMEZONE = "Asia/Hong_Kong"
-ZOLA_DIR = "zola"
 ZOLA_VERSION = "0.15.2"
