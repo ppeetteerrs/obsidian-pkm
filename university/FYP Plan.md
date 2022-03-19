@@ -17,3 +17,6 @@ More details on each pathology:
 So the plan is:
 **Stage 1 StyleGAN Training**
 - Select subset of CheXpert 
+
+Ideas:
+- StyleGAN increase higher resolution channels, reduce lower resolution channel

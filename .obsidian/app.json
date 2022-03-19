@@ -6,7 +6,7 @@
   "foldIndent": true,
   "useMarkdownLinks": false,
   "alwaysUpdateLinks": true,
-  "newFileLocation": "folder",
+  "newFileLocation": "current",
   "newLinkFormat": "shortest",
   "attachmentFolderPath": "attachments",
   "showUnsupportedFiles": true,

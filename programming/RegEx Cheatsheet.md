@@ -41,7 +41,7 @@ RegEx patterns are made up of characters, groups and ranges:
 ## Groups and Ranges
 | RegEx             | Meaning                                                 |
 | ----------------- | ------------------------------------------------------- |
-| `x|y`             | x or y (default global group, use inside group / range) |
+| `x\\|y`             | x or y (default global group, use inside group / range) |
 | `[<characters>]`  | match any enclosed character                            |
 | `[^<characters>]` | match any non-enclosed character                        |
 | `(x)`             | capturing group, use via `$1, ..., $9`                  |
