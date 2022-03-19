@@ -39,12 +39,13 @@ RegEx patterns are made up of characters, groups and ranges:
 | `x(?<!y)` | match x if x is not preceded by y |
 
 ## Groups and Ranges
-| RegEx             | Meaning                                                 |
-| ----------------- | ------------------------------------------------------- |
-| `x\\|y`             | x or y (default global group, use inside group / range) |
-| `[<characters>]`  | match any enclosed character                            |
-| `[^<characters>]` | match any non-enclosed character                        |
-| `(x)`             | capturing group, use via `$1, ..., $9`                  |
-| `\n`              | backreference to group `n`                              |
-| `(?:x)`           | non-capturing group                                     |
+| RegEx                 | Meaning                                                 |
+| --------------------- | ------------------------------------------------------- |
+| <code>x&#124;y</code> | x or y (default global group, use inside group / range) |
+| `[<characters>]`      | match any enclosed character                            |
+| `[^<characters>]`     | match any non-enclosed character                        |
+| `(x)`                 | capturing group, use via `$1, ..., $9`                  |
+| `\n`                  | backreference to group `n`                              |
+| `(?:x)`               | non-capturing group                                     |
 
+See [here](https://stackoverflow.com/questions/49809122/vertical-bar-symbol-within-a-markdown-table) on how to display `|` inside a Markdown table.

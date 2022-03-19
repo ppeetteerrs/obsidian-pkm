@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3a8dcfdcfc7a230c",
+        "id": "35699b8326514239",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "programming/RegEx Cheatsheet.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -66,6 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "programming/RegEx Cheatsheet.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -122,7 +128,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "programming/RegEx Cheatsheet.md"
+              }
             }
           }
         ]
@@ -138,6 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "programming/RegEx Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,6 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "programming/RegEx Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +183,7 @@
     "width": 274,
     "collapsed": true
   },
-  "active": "3a8dcfdcfc7a230c",
+  "active": "35699b8326514239",
   "lastOpenFiles": [
     "programming/RegEx Cheatsheet.md",
     "daily/2022-03-20.md",
