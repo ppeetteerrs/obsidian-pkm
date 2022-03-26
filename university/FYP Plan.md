@@ -20,3 +20,5 @@ So the plan is:
 
 Ideas:
 - StyleGAN increase higher resolution channels, reduce lower resolution channel
+
+[[ESP32-C3#Documents]]

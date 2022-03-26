@@ -1,0 +1,2 @@
+- [High dimensional normal distribution is in a sphere](https://stefan-stein.github.io/posts/2020-03-07-concentration-properties-of-high-dimensional-normal-distributions/)
+- [UMAP Visualization](https://www.youtube.com/watch?v=eN0wFzBA4Sc)
