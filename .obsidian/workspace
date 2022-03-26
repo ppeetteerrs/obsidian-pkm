@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "university/FYP Plan.md",
-            "mode": "source",
+            "file": "deep learning/Adam.md",
+            "mode": "preview",
             "backlinks": false,
             "source": false
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "university/FYP Plan.md",
+                "file": "deep learning/Adam.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "university/FYP Plan.md"
+                "file": "deep learning/Adam.md"
               }
             }
           }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "university/FYP Plan.md",
+                "file": "deep learning/Adam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "university/FYP Plan.md",
+                "file": "deep learning/Adam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +185,8 @@
   },
   "active": "35699b8326514239",
   "lastOpenFiles": [
+    "deep learning/Adam.md",
+    "Cauchy–Schwarz Inequality.md",
     "university/FYP Plan.md",
     "daily/2022-03-26.md",
     "deep learning/pixel2Style2Pixel.md",
@@ -192,8 +194,6 @@
     "programming/Pytorch Notes.md",
     "daily/2022-03-23.md",
     "programming/Python.md",
-    "programming/Python Advanced Typings.md",
-    "programming/Python RegEx.md",
-    "programming/Python Imports.md"
+    "programming/Python Advanced Typings.md"
   ]
 }
