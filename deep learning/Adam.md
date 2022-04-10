@@ -46,4 +46,8 @@ $$
 *Why is the uncentered variance used?*
 
 - We do not have access to the mean global gradient (across all batches / timesteps) but we can safely assume it to be zero.
-- The variance has the same expectation as the uncentered variance of the global variance (or centered assuming 0 mean gradient)
+- The variance term in Adam has the same expectation as the uncentered variance of the global variance (or centered assuming 0 mean gradient)
+vt: given historical gradients and assume global mean 0, what is expected variance (for current step, or any step cuz i.i.d.)
+mt: what is expected gradient mean (for current step, or any step cuz i.i.d.)
+
+dividing them is liek sharp ratio, how much to believe in current mean estimate

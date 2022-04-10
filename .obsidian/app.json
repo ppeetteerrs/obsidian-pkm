@@ -1,7 +1,7 @@
 {
   "defaultViewMode": "preview",
   "legacyEditor": false,
-  "livePreview": true,
+  "livePreview": false,
   "foldHeading": true,
   "foldIndent": true,
   "useMarkdownLinks": false,
@@ -10,5 +10,12 @@
   "newLinkFormat": "shortest",
   "attachmentFolderPath": "attachments",
   "showUnsupportedFiles": true,
-  "newFileFolderPath": "misc"
+  "newFileFolderPath": "misc",
+  "pdfExportSettings": {
+    "pageSize": "A3",
+    "landscape": false,
+    "margin": "1",
+    "downscalePercent": 100
+  },
+  "strictLineBreaks": true
 }

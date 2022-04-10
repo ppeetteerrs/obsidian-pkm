@@ -3,6 +3,7 @@ command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || tr
 publish = "public"
 
 [build.environment]
+GANALYTICS = "G-GXRDN10PHJ"
 LANDING_BUTTON = "Explore"
 LANDING_DESCRIPTION = "This is my personal knowledge management system. Concepts and snippets of knowledge are organized in an (unstructure) inter-linked knowledge graph."
 LANDING_PAGE = "home"

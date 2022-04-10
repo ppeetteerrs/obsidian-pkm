@@ -8,3 +8,5 @@ Modern optimizers such as the [[Adam]] optimzer limit gradient update step sizes
 ![[Adam#Update rule]]
 
 [*Reference video*](https://www.youtube.com/watch?v=XwUTJhKRVl8&feature=emb_title)
+
+Note that StyleGAN2 code ignored the root 2 factor in their scaling factor because it was cancelled with the subsequent summing with bias term. Smart pants.
