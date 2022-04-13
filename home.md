@@ -1,7 +1,7 @@
 ## University
 ### Year 4
 #### FYP
-[[university/FYP Plan]]
+[[FYP Plan (trying to break things)````]]
 
 [[deep learning/StyleGAN]]
 

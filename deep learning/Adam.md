@@ -27,10 +27,10 @@ $$
 such that:
 
 $$
-\begin{align}
-E[\hat{m_t}] &= E[g_t] \\
-E[\hat{v_t}] &= E[g_t^2]
-\end{align}
+	\begin{align}
+		E[\hat{m_t}] &= E[g_t] \\
+		E[\hat{v_t}] &= E[g_t^2]
+	\end{align}
 $$
 
 So the gradient update rule becomes:

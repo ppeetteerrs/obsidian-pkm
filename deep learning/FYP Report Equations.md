@@ -1,3 +1,3 @@
 ## CycleGAN Loss Function
 
-$$\mathcal{L}_{cyc}(G,F) = \mathbb{E}_{x \sim p_{data}(x)}[||F(G(x)) - x||_1] + \mathbb{E}_{y \sim p_{data}(y)}[||G(F(y)) - y||_1]$$
+$$\mathcal{L_{cyc}}(G,F) = \mathbb{E_{x \sim p_{data}(x)}} [\Vert F(G(x)) - x\Vert_1] + \mathbb{E_{y \sim p_{data}(y)}}[\Vert G(F(y)) - y\Vert_1]$$

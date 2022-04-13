@@ -13,6 +13,11 @@
 [[Python Advanced Typings]]
 todo: python string types e.g. r'', b'', u''
 Context Manager from Generator
+[[deep learning/StyleGAN]]
+
+[deep learning/StyleGAN](../deep learning/StyleGAN)
+
+[deep learning/StyleGAN](deep learning/StyleGAN)
 
 ### Python Utils
 - listify, stringify, tuplify (type hint up to length 10??)
