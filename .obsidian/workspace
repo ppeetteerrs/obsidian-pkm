@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "deep learning/Weight Initialization.md",
+            "file": "3D models/Motors.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "deep learning/Weight Initialization.md",
+                "file": "3D models/Motors.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "deep learning/Weight Initialization.md"
+                "file": "3D models/Motors.md"
               }
             }
           }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "deep learning/Weight Initialization.md",
+                "file": "3D models/Motors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "deep learning/Weight Initialization.md",
+                "file": "3D models/Motors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +185,8 @@
   },
   "active": "5433804e607ce5eb",
   "lastOpenFiles": [
+    "3D models/Motors.md",
+    "daily/2022-04-14.md",
     "deep learning/Weight Initialization.md",
     "daily/2022-04-13.md",
     "deep learning/FYP Report Equations.md",
@@ -192,8 +194,6 @@
     "deep learning/Equalized Learning Rate.md",
     "deep learning/Custom CUDA or Autograd Functions in Pytorch😃😃.md",
     "attachments/stylegan realism score.png",
-    "university/FYP Plan (trying to break things)````.md",
-    "daily/2022-04-12.md",
-    "daily/2022-04-11.md"
+    "university/FYP Plan (trying to break things)````.md"
   ]
 }
