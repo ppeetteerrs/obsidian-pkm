@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3D models/Motors.md",
-            "mode": "source",
+            "file": "3D models/Gear and Belt Generators.md",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3D models/Motors.md",
+                "file": "3D models/Gear and Belt Generators.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3D models/Motors.md"
+                "file": "3D models/Gear and Belt Generators.md"
               }
             }
           }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3D models/Motors.md",
+                "file": "3D models/Gear and Belt Generators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3D models/Motors.md",
+                "file": "3D models/Gear and Belt Generators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +185,7 @@
   },
   "active": "5433804e607ce5eb",
   "lastOpenFiles": [
+    "3D models/Gear and Belt Generators.md",
     "3D models/Motors.md",
     "daily/2022-04-14.md",
     "deep learning/Weight Initialization.md",
@@ -193,7 +194,6 @@
     "deep learning/Adam.md",
     "deep learning/Equalized Learning Rate.md",
     "deep learning/Custom CUDA or Autograd Functions in Pytorch😃😃.md",
-    "attachments/stylegan realism score.png",
-    "university/FYP Plan (trying to break things)````.md"
+    "attachments/stylegan realism score.png"
   ]
 }
