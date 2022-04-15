@@ -17,5 +17,5 @@
     "margin": "1",
     "downscalePercent": 100
   },
-  "strictLineBreaks": true
+  "strictLineBreaks": false
 }

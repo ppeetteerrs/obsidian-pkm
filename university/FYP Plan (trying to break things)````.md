@@ -22,7 +22,5 @@ Ideas:
 - StyleGAN increase higher resolution channels, reduce lower resolution channel
 
 [[ESP32-C3#Documents]]
-
 ![](https://hit.yhype.me/github/profile?user_id=8547778)
-
 https://github.com/rvignav/CT2Xray
