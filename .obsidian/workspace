@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "misc/MiniDelta Tuning.md",
+            "file": "3D models/Klipper on MPMD V1.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "misc/MiniDelta Tuning.md",
+                "file": "3D models/Klipper on MPMD V1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "misc/MiniDelta Tuning.md"
+                "file": "3D models/Klipper on MPMD V1.md"
               }
             }
           }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "misc/MiniDelta Tuning.md",
+                "file": "3D models/Klipper on MPMD V1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "misc/MiniDelta Tuning.md",
+                "file": "3D models/Klipper on MPMD V1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +185,8 @@
   },
   "active": "5433804e607ce5eb",
   "lastOpenFiles": [
+    "3D models/Klipper on MPMD V1.md",
+    "daily/2022-04-16.md",
     "misc/MiniDelta Tuning.md",
     "daily/2022-04-15.md",
     "university/FYP Plan (trying to break things)````.md",
@@ -192,8 +194,6 @@
     "3D models/Motors.md",
     "daily/2022-04-14.md",
     "deep learning/Weight Initialization.md",
-    "daily/2022-04-13.md",
-    "deep learning/FYP Report Equations.md",
-    "deep learning/Adam.md"
+    "daily/2022-04-13.md"
   ]
 }

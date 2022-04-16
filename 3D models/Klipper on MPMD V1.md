@@ -1,0 +1,17 @@
+- SWD connection on stock / silent board
+- GG bootloader 
+	- https://github.com/arkorobotics/MiniDeltaBootloader
+	- Combine Hex from 0x08000000 to 0x08002000 + Firmware from 0x08002000 onwards using J-Flash
+	- then flash using platformIO jlink + SWD
+- J-link clone flashing binary:
+	- J-Flash + PlatformIO
+- Klipper Setup
+	- STM32F070
+	- 8kb
+	- USB connection
+- Example Config
+	- https://github.com/Klipper3d/klipper/blob/master/config/printer-monoprice-mini-delta-2017.cfg
+	- Change radius to 55
+	- mcirosteps to 32 for silent board
+	- z-offset
+	- virtual_sdcard: ~/gcode_files
