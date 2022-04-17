@@ -7,7 +7,7 @@ GANALYTICS = "G-GXRDN10PHJ"
 GRAPH_LINK_REPLACE = "y"
 HOME_GRAPH = "y"
 LANDING_BUTTON = "<span class='shake-rotate shake-freeze'>Have a look?</span>"
-LANDING_DESCRIPTION = "<div style='margin-bottom: 1rem; margin-top: -3rem;'>My physical brain is <div style='font-size: 4rem; display: inline-block' class='animate__animated animate__pulse animate__infinite'>💤 </div> but my digital brain is active.</div>"
+LANDING_DESCRIPTION = "<div style='margin-bottom: 1rem; margin-top: -3rem;'>My physical brain is <div style='font-size: 4rem; display: inline-block' class='animate__animated animate__pulse animate__infinite '>💤 </div> but my digital brain is active.</div>"
 LANDING_PAGE = "home"
 LANDING_TITLE = "<span class='hvr-grow'>Hi, I'm Peter</span>"
 LOCAL_GRAPH = "y"
@@ -21,3 +21,24 @@ SLUGIFY = "y"
 STRICT_LINE_BREAKS = "y"
 TIMEZONE = "Asia/Hong_Kong"
 ZOLA_VERSION = "0.15.2"
+
+[[plugins]]
+package = "netlify-plugin-submit-sitemap"
+
+[plugins.inputs]
+
+# The base url of your site (optional, default = main URL set in Netlify)
+baseUrl = "https://peteryuen.netlify.app/"
+
+# Path to the sitemap URL (optional, default = /sitemap.xml)
+sitemapPath = "/sitemap.xml"
+
+# Time in seconds to not submit the sitemap after successful submission
+ignorePeriod = 0
+
+# Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
+providers = [
+  "google",
+  "bing",
+  "yandex",
+]
