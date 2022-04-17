@@ -11,3 +11,4 @@
 
 [[attachments/Progressive GAN.pdf]]
 
+[[weird_@filename_% $^}{+=-_~`&()!']]
