@@ -14,3 +14,7 @@ Just change model teeth number in "Parameters". Remember to only go from low tee
 
 ### Slot
 <iframe src="https://myhub.autodesk360.com/ue2d5e1af/shares/public/SH9285eQTcf875d3c539486b372ae90fef8e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+### Harmonic Gear Box
+
+<iframe src="https://myhub.autodesk360.com/ue2d5e1af/shares/public/SH9285eQTcf875d3c539df81a1f536793d7c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
