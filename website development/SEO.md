@@ -5,3 +5,4 @@
 - [Breadcrumb List](https://developers.google.com/search/docs/advanced/structured-data/breadcrumb)
 - [Netlify Submit Sitemap](https://www.npmjs.com/package/netlify-plugin-submit-sitemap)
 - [Google Search Console](https://search.google.com/search-console/about)
+

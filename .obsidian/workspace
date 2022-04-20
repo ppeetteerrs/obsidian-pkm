@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3D models/Klipper on MPMD V1.md",
-            "mode": "preview",
+            "file": "misc/Renovation Nonos.md",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3D models/Klipper on MPMD V1.md",
+                "file": "misc/Renovation Nonos.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3D models/Klipper on MPMD V1.md"
+                "file": "misc/Renovation Nonos.md"
               }
             }
           }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3D models/Klipper on MPMD V1.md",
+                "file": "misc/Renovation Nonos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3D models/Klipper on MPMD V1.md",
+                "file": "misc/Renovation Nonos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +185,8 @@
   },
   "active": "5433804e607ce5eb",
   "lastOpenFiles": [
+    "misc/Renovation Nonos.md",
+    "daily/2022-04-21.md",
     "3D models/Klipper on MPMD V1.md",
     "3D models/Gear and Belt Generators.md",
     "daily/2022-04-17.md",
@@ -192,8 +194,6 @@
     "daily/2022-04-16.md",
     "misc/MiniDelta Tuning.md",
     "daily/2022-04-15.md",
-    "university/FYP Plan (trying to break things)````.md",
-    "3D models/Motors.md",
-    "daily/2022-04-14.md"
+    "university/FYP Plan (trying to break things)````.md"
   ]
 }
