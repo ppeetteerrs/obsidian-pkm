@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "misc/Renovation Nonos.md",
+            "file": "website development/SEO.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "misc/Renovation Nonos.md",
+                "file": "website development/SEO.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "misc/Renovation Nonos.md"
+                "file": "website development/SEO.md"
               }
             }
           }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "misc/Renovation Nonos.md",
+                "file": "website development/SEO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "misc/Renovation Nonos.md",
+                "file": "website development/SEO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +185,7 @@
   },
   "active": "5433804e607ce5eb",
   "lastOpenFiles": [
+    "website development/SEO.md",
     "misc/Renovation Nonos.md",
     "daily/2022-04-21.md",
     "3D models/Klipper on MPMD V1.md",
@@ -193,7 +194,6 @@
     "home.md",
     "daily/2022-04-16.md",
     "misc/MiniDelta Tuning.md",
-    "daily/2022-04-15.md",
-    "university/FYP Plan (trying to break things)````.md"
+    "daily/2022-04-15.md"
   ]
 }
