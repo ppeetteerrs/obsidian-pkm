@@ -1,0 +1,3 @@
+- conatiner registry
+- delete remote tag
+- github actions

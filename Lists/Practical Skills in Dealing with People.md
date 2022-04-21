@@ -1,0 +1,16 @@
+- When you want someone to do something, do not ask yes or no, ask them to choose between two alternatives:
+	- Do not ask "Shall we go out on the weekend?", ask "Should we go for a movie or shopping this weekend?"
+	- Intuition: do not ask a yes or no question when the other's default is no and you want a yes
+- When you want to enforce a rule and people are not following, do not order them to follow, ask if there is something preventing them from doing so?
+	- E.g. if employees are not wearing safety hats, ask if it is because the hat is uncomfortable etc.
+- When you ask for a favour, always give a reason (use **because...**)
+- Show your imperfections intentionally to make yourself more likeable and approachable
+- Reading implications from conversations
+	- If someone did not say a straightforward yes, it means they want to reject
+	- See you again when we have time = see you never
+	- I don't like to bother / trouble others = I don't like to be bothered
+	- I will try = No thank you
+	- I will go back and think about it = I wont think about it
+- Good Mentality
+	- Dont be afraid of disappointing others, you did not force them to have expectations on you
+	- Let your behaviour be consistent with your thoughts and trust that others will do the same. Anything that the other did not express and you did not observe, do not assume.
