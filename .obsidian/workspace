@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lists/Practical Skills in Dealing with People.md",
+            "file": "Programming/Python.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cuda",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Lists/Practical Skills in Dealing with People.md",
+                "file": "Programming/Python.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lists/Practical Skills in Dealing with People.md"
+                "file": "Programming/Python.md"
               }
             }
           }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lists/Practical Skills in Dealing with People.md",
+                "file": "Programming/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lists/Practical Skills in Dealing with People.md",
+                "file": "Programming/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,15 +185,15 @@
   },
   "active": "5433804e607ce5eb",
   "lastOpenFiles": [
+    "Programming/Python.md",
+    "3D Printer/Prusa Mini Customization.md",
+    "daily/2022-04-24.md",
+    "Tech/VSCode Resources.md",
+    "daily/2022-04-23.md",
+    "Programming/RegEx Cheatsheet.md",
+    "Lists/Personal Re.md",
+    "3D Printer/Octoprint.md",
     "Lists/Practical Skills in Dealing with People.md",
-    "Lists/Quotes.md",
-    "Lists/Stuff to Read.md",
-    "Lists/Fancy Recipes.md",
-    "Website Development/SEO.md",
-    "Lists/Cool Skills That I Do Not Possess.md",
-    "Lists/Singapore Restaurants.md",
-    "daily/2022-04-21.md",
-    "Miscellaneous/Renovation Nonos.md",
-    "3D models/Klipper on MPMD V1.md"
+    "Lists/Quotes.md"
   ]
 }

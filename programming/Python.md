@@ -1,10 +1,34 @@
 ## Below the Hoods
 [[Python Imports]]
+[Named Tuples](http://zecong.hu/2019/08/10/inheritance-for-namedtuples/)
 
 ## Tricks
 - super outside class
 - lru_cache
 - [module as class](https://mail.python.org/pipermail/python-ideas/2012-May/014969.html) ([also](https://stackoverflow.com/questions/2447353/getattr-on-a-module/7668273#7668273))
+- muting imported library tqdm
+```python
+from lungmask import mask, utils
+
+def nop(item: Any, *_: Any, **__: Any) -> Any:
+
+"""
+
+NOP function overload to silent imported libraries.
+
+"""
+
+
+
+return item
+
+# Make lungmask tqdm quiet
+
+mask.tqdm = nop
+
+utils.tqdm = nop
+```
+
 
 ## Concepts
 [[Python Strings]]
@@ -13,11 +37,7 @@
 [[Python Advanced Typings]]
 todo: python string types e.g. r'', b'', u''
 Context Manager from Generator
-[[StyleGAN]]
 
-[deep learning/StyleGAN](../deep learning/StyleGAN)
-
-[deep learning/StyleGAN](deep learning/StyleGAN)
 
 ### Python Utils
 - listify, stringify, tuplify (type hint up to length 10??)
