@@ -1,0 +1,4 @@
+- EMA improves model performance... but doesn't optimizer already account for moving averages?
+	- https://blog.csdn.net/mikelkl/article/details/85227053
+- https://medium.com/analytics-vidhya/complete-deep-learning-roadmap-8748c0475dc1
+- https://i.am.ai/roadmap/#machine-learning-roadmap

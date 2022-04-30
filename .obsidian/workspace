@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5433804e607ce5eb",
+        "id": "e13d4a971863bb28",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Programming/Python.md",
+            "file": "Programming/VSCode DevContainers.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programming/Python.md",
+                "file": "Programming/VSCode DevContainers.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Python.md"
+                "file": "Programming/VSCode DevContainers.md"
               }
             }
           }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Python.md",
+                "file": "Programming/VSCode DevContainers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Python.md",
+                "file": "Programming/VSCode DevContainers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,17 +183,17 @@
     "width": 274,
     "collapsed": true
   },
-  "active": "5433804e607ce5eb",
+  "active": "e13d4a971863bb28",
   "lastOpenFiles": [
-    "Programming/Python.md",
-    "3D Printer/Prusa Mini Customization.md",
-    "daily/2022-04-24.md",
-    "Tech/VSCode Resources.md",
-    "daily/2022-04-23.md",
-    "Programming/RegEx Cheatsheet.md",
-    "Lists/Personal Re.md",
-    "3D Printer/Octoprint.md",
-    "Lists/Practical Skills in Dealing with People.md",
-    "Lists/Quotes.md"
+    "Programming/VSCode DevContainers.md",
+    "Programming/Python/Python.md",
+    "Maths/Conceptual Questions.md",
+    "Embedded Systems/Chips.md",
+    "Operating System/File System.md",
+    "Embedded Systems/FPGA Stuff.md",
+    "Programming/Cpp Deep Dive.md",
+    "Embedded Systems/Embedded Linux.md",
+    "Tinkering/Project Inspirations.md",
+    "Programming/Python/Python Advanced Typings.md"
   ]
 }

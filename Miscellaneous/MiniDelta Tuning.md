@@ -1,1 +1,0 @@
-- clips cannot be too inside

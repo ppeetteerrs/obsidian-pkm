@@ -1,0 +1,2 @@
+# Tips
+- `localEnv`: use `.zshrc`, for `bash`, try `.profile`, `.bash_profile` and `.bashrc` till it works. Use `.zshrc` if you redirects you bash shell to zsh (e.g. if you are non-root but installed a zsh binary in your user home directory and uses bashrc to redirect the shell)

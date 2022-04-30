@@ -1,0 +1,2 @@
+- [Baidu Pan Download](https://oneleaf.icu/)
+- [PDF](https://libgen.is/)

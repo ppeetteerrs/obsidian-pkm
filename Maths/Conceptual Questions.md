@@ -1,0 +1,2 @@
+- https://math.stackexchange.com/questions/1762147/why-do-we-study-real-numbers
+- https://math.stackexchange.com/questions/2117491/what-is-a-homomorphism-and-what-does-structure-preserving-mean
