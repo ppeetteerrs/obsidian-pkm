@@ -3,8 +3,43 @@ command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || tr
 publish = "public"
 
 [build.environment]
+FOOTER = "Proudly "
 GANALYTICS = "G-GXRDN10PHJ"
 GRAPH_LINK_REPLACE = "y"
+GRAPH_OPTIONS = """
+        {
+        	nodes: {
+        		shape: "star",
+        		color: isDark() ? "#8c8e91" : "#dee2e6",
+        		font: {
+        			face: "Inter",
+        			color: isDark() ? "#c9cdd1" : "#616469",
+        			strokeColor: isDark() ? "#c9cdd1" : "#616469",
+        		},
+        		scaling: {
+        			label: {
+        				enabled: true,
+        			},
+        		},
+        	},
+        	edges: {
+        		color: { inherit: "both" },
+        		width: 0.8,
+        		smooth: {
+        			type: "continuous",
+        		},
+        		hoverWidth: 4,
+        	},
+        	interaction: {
+        		hover: true,
+        	},
+        	height: "100%",
+        	width: "100%",
+        	physics: {
+        		solver: "repulsion",
+        	},
+        }
+        """
 HOME_GRAPH = "y"
 LANDING_BUTTON = "<span class='shake-rotate shake-freeze'>Have a look?</span>"
 LANDING_DESCRIPTION = "<div style='margin-bottom: 1rem; margin-top: -3rem;'>My physical brain is <div style='font-size: 4rem; display: inline-block' class='animate__animated animate__pulse animate__infinite '>💤 </div> but my digital brain is active.</div>"
@@ -14,6 +49,7 @@ LOCAL_GRAPH = "y"
 PAGE_GRAPH = "y"
 PYTHON_VERSION = "3.8"
 REPO_URL = "https://github.com/ppeetteerrs/obsidian-pkm"
+ROOT_SECTION_NAME = "root"
 SITE_TITLE = "Peter's 2<sup>nd</sup> <span class='hvr-pulse'>🧠</span>"
 SITE_TITLE_TAB = "Peter's Second 🧠"
 SITE_URL = "https://peteryuen.netlify.app/"
