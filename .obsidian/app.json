@@ -17,5 +17,6 @@
     "margin": "1",
     "downscalePercent": 100
   },
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "vimMode": false
 }
